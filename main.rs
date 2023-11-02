@@ -1,5 +1,10 @@
 fn main() {
+
+    let mut v = Vec::new();
+
     for i in 1..11{
-        println!("{}", i);
+        v.push(i);
     }
+
+    //println!("{:?}", v);
 }
