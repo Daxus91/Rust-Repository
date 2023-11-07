@@ -10,6 +10,8 @@ fn main() {
         if v[x] % 2 != 0 {
             println!("{:?}", v[x]);  
         }
-    }  
+    }
+    
+    println!("test 1 second branch");
 }
 
